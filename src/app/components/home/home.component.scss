@@ -1,0 +1,14 @@
+.background
+{
+    height: 100vh;
+    background-image: url('../../../assets/images/image.jpg');
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+.card:hover
+{
+    box-shadow: 10px 20px 30px 1px rgba(27, 27, 27, 0.863) !important;
+}
