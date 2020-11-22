@@ -35,6 +35,21 @@
     height: auto;
     padding-top: 10vh;
 
+    .homepage__about_me {
+      height: 65vh;
+
+      .img-fluid {
+        height:50%;
+        width:100%;
+        object-fit: cover;
+        object-position: absolute;
+        border-radius:2%;
+
+      }
+
+ 
+    }
+
     .homepage__category {
       height: 30vh;
 
@@ -43,15 +58,22 @@
         transition: 600ms;
 
         font-weight: bolder;
-        color: var(--plug-primary-color);
 
         &:hover {
           letter-spacing: 2px;
         }
       }
+  
     }
 
+    }
+    
     @media only screen and (max-width: 600px) {
+      .homepage__about_me {
+        height: 45vh !important;
+        
+      }
+
       .homepage__category {
         height: 40vh !important;
       }
@@ -98,5 +120,5 @@
     opacity: 1;
   }
 
-}
+
 

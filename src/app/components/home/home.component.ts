@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 isDisplay = true;
+isDisplaySecond = true;
 
   constructor() { }
 
@@ -17,8 +18,21 @@ isDisplay = true;
 
   }
 
-  toggleDisplay(){
+  toggleDisplayEducation(){
     this.isDisplay = !this.isDisplay
   }
+
+  toggleDisplayWorkExperience(){
+    this.isDisplaySecond = !this.isDisplaySecond
+  }
+
+  toggleDisplaySoftSkills(){
+    this.isDisplaySecond = !this.isDisplaySecond
+  }
+  
+  toggleDisplayTechnicalSkills(){
+    this.isDisplaySecond = !this.isDisplaySecond
+  }
+  
 
 }
