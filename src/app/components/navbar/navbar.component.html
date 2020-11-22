@@ -1,13 +1,25 @@
-<nav class="navbar sticky-top navbar-dark " style="background-color: #eeeeee81">
-  <a class="navbar-brand" href="#" style="color:black">Rankapole</a>
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark sticky-top grey" style="background-color: rgba(68, 84, 109, 0.514)" [containerInside]="false">
 
-<ul class="navbar-nav ml-auto ">
-  <li class="nav-item">
-    <a  style="color:black" (click)="scrollTo('category')"><strong>About me</strong></a>
-  </li>
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a class="navbar-brand" style="color:black" href="#"><strong>Rankapole</strong></a></mdb-navbar-brand>
 
-</ul>
+  <!-- Collapsible content -->
+  <links>
 
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link waves-light" style="color:black" mdbWavesEffect><strong>About me</strong></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" href="mailto:maryannrankapolerm@gmail.com" style="color:black" mdbWavesEffect><strong>Email me</strong></a>
+      </li>
+    </ul>
+    <!-- Links -->
+  </links>
+  <!-- Collapsible content -->
 
-</nav>
+</mdb-navbar>
+<!--/.Navbar-->
 
