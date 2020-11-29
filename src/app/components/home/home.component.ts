@@ -24,15 +24,9 @@ isDisplaySecond = true;
 
   toggleDisplayWorkExperience(){
     this.isDisplaySecond = !this.isDisplaySecond
+    
   }
 
-  toggleDisplaySoftSkills(){
-    this.isDisplaySecond = !this.isDisplaySecond
-  }
-  
-  toggleDisplayTechnicalSkills(){
-    this.isDisplaySecond = !this.isDisplaySecond
-  }
   
 
 }
